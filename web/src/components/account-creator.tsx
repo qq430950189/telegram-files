@@ -228,7 +228,7 @@ export default function AccountCreator({
         </p>
         <InputOTP
           id="code"
-          maxLength={5}
+          maxLength={6}
           value={code}
           disabled={isMethodExecuting}
           required
@@ -240,6 +240,7 @@ export default function AccountCreator({
             <InputOTPSlot index={2} />
             <InputOTPSlot index={3} />
             <InputOTPSlot index={4} />
+            <InputOTPSlot index={5} />
           </InputOTPGroup>
         </InputOTP>
       </div>
